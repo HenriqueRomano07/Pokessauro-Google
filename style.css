@@ -1,0 +1,49 @@
+
+.body {
+    background-color: black;
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    background-image: url(img/umbreon.png);
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(img/digglettpng.png);
+}
+
+.game-over {
+    height: 600px;
+    width: 1200px;
+    background-image: url(img/brincadeiranemeo.jpg);
+    display: flex;
+    justify-content: center;
+    margin-left: 76px;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 70000%;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(img/fundassasso.jpg);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 650px;
+}
